@@ -29,7 +29,7 @@
 				<geometry>
 					<mesh filename="package://youbot_description/meshes/youbot_gripper/palm.dae" />
 				</geometry>
-				<material name="Black" />
+				<material name="youBot/Black" />
 			</visual>
 			
 			<collision>
@@ -66,7 +66,7 @@
 				<geometry>
 					<mesh filename="package://youbot_description/meshes/youbot_gripper/finger.dae" />
 				</geometry>
-				<material name="Black" />
+				<material name="youBot/Black" />
 			</visual>
 			
 			<collision>
@@ -100,7 +100,7 @@
 				<geometry>
 					<mesh filename="package://youbot_description/meshes/youbot_gripper/finger.dae" />
 				</geometry>
-				<material name="Black" />
+				<material name="youBot/Black" />
 			</visual>
 			
 			<collision>

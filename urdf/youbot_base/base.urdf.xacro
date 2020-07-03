@@ -40,6 +40,8 @@
 
 
   <xacro:macro name="youbot_base" params="name">
+
+    <!-- dummy baselink -->
     <link name="${name}_dummy">
     </link>
     <joint name="${name}_dummy_joint" type="fixed">
@@ -47,6 +49,8 @@
       <child link="${name}_footprint"/>
       <parent link="${name}_dummy"/>
     </joint>
+
+    <!-- original baselink -->
     <link name="${name}_footprint">
       <inertial>
         <mass value="0.1"/>
